@@ -6,3 +6,4 @@ src/index2.re
 .vscode
 .bsb.lock
 .merlin
+*.bs.js
