@@ -1,0 +1,6 @@
+.cache
+dist
+node_modules
+lib
+src/index2.re
+.vscode

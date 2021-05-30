@@ -1,0 +1,10 @@
+####{BSB GENERATED: NO EDIT
+FLG -ppx '/Users/mando/Github/ContentEditable/caret-coordinates-index-contenteditable/node_modules/bs-platform/darwin/bsc.exe -as-ppx '
+S /Users/mando/Github/ContentEditable/caret-coordinates-index-contenteditable/node_modules/bs-platform/lib/ocaml
+B /Users/mando/Github/ContentEditable/caret-coordinates-index-contenteditable/node_modules/bs-platform/lib/ocaml
+FLG -w +a-4-9-20-40-41-42-50-61-102-109-40-42-61
+S /Users/mando/Github/ContentEditable/caret-coordinates-index-contenteditable/node_modules/bs-webapi/lib/ocaml
+B /Users/mando/Github/ContentEditable/caret-coordinates-index-contenteditable/node_modules/bs-webapi/lib/ocaml
+S src
+B lib/bs/src
+####BSB GENERATED: NO EDIT}

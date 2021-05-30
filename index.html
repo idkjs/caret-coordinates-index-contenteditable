@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Finding the Caret / Cursor in Contenteditable</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1 id="title">Finding The Caret In A Contenteditables</h1>
+    <div id="body">
+      <h2>👇 Click below 👇</h2>
+      <div id="contenteditable" contenteditable="true">Hello, I am a <strong>Container</strong> with <a href="/">a lot of interesting <i>things</i></a> inside.<br />Finding the cursor must be hard<sup>2</sup>, right?</div>
+      <div id="indexHint">
+        <p>Cursor Index: <span id="caretIndex">–</span></p>
+      </div>
+    </div>
+    <span id="tooltip" aria-hidden="true">Hey ✌️</span>
+    <script src="src/index.bs.js"></script>
+    <!-- <script src="src/index.js"></script> -->
+  </body>
+</html>

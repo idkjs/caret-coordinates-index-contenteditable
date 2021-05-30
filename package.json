@@ -1,0 +1,23 @@
+{
+  "name": "caret-coordinates-index-contenteditable",
+  "version": "1.0.0",
+  "description": "JavaScript helper functions to find the caret/cursor in a contenteditable element (coordinates and index).",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --port 4000 --open",
+    "clean": "bsb -clean-world",
+    "watch": "BS_WATCH_CLEAR=true bsb -make-world -w",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "bs-webapi": "^0.19.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.14.3",
+    "bs-platform": "9.0.2",
+    "parcel-bundler": "^1.12.5"
+  },
+  "keywords": [
+    "bs-webapi","ReScript","Reason","Reasonml","contentEditable","carets"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "caret-coordinates-index-contenteditable",
+  "version": "0.1.0",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": false
+    },
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "bs-dependencies": [ "bs-webapi" ],
+  "suffix": ".bs.js",
+  "warnings": {
+    "number": "-109",
+    "error": "+101"
+  }
+}
